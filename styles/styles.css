@@ -1,0 +1,297 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+    width: 100%;
+    font-weight: 400;
+    background: #f5f5f5;
+}
+
+section {
+    margin: auto;
+    width: 1400px;
+    padding: 150px 125px 0 125px;
+}
+section:first-child {
+    margin-top: 0;
+    padding: 0;
+}
+.section-full {
+    width: 100%;
+}
+.section-nopadd {
+    padding: 0;
+}
+.section-tasks {
+    padding-bottom: 150px;
+}
+.task__frame {
+    margin-top: 74px;
+}
+
+.task {
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03cm;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    text-align: left;
+    letter-spacing: -0.03cm
+}
+
+.container {
+    min-width: 1400px;
+    margin: auto;
+    background: #000;
+}
+
+.WidthImage {
+    position: relative;
+    width: 100%;
+    height: 765px;
+    background-image: url("../resources/Rectangle1.png");
+    background-position: 50%;
+    background-size: cover;
+}
+
+.WidthImage_text1 {
+    position: absolute;
+    left: 125px;
+    top: 334px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 430px;
+    letter-spacing: -0.03cm;
+    margin: auto;
+}
+.WidthImage_text2 {
+    position: absolute;
+    left: 119px;
+    bottom: 94px;
+    height: 205px;
+    text-align: left;
+    font-size: 80px;
+    line-height: 70px;
+    color: #1BFF07;
+    letter-spacing: -0.03cm;
+    margin: auto;
+}
+.logo {
+    font-size: 42.41px;
+    line-height: 55px;
+    background-color: #000000;
+    border-bottom: 2px solid #000000;
+    padding-left: 9px;
+    padding-right: 12px;
+    border-radius: 100px;
+    height: 39px;
+    letter-spacing: -11%;
+}
+header {
+    padding: 27px 125px 0 125px;
+    width: 1400px;
+    margin: auto;
+}
+.nav {
+    float: right;
+}
+.nav_link {
+    margin-left: 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+}
+.nav_link:hover {
+    color: #1BFF07;
+}
+.All_projects {
+    color: #FFFFFF;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03cm;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.project1 {
+    height: 550px;
+    border-radius: 30px;
+    background-image: url("../resources/Rectangle2.png");
+}
+.project2 {
+    height: 550px;
+    border-radius: 30px;
+    background-image: url("../resources/Rectangle3.png");
+}
+.project3 {
+    height: 550px;
+    border-radius: 30px;
+    background-image: url("../resources/Rectangle4.png");
+    margin-bottom: 80px;
+}
+.project_text1 {
+    padding-left: 50px;
+    padding-top: 410px;
+    color: #FFFFFF;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03cm;
+}
+.project_text2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03cm;
+    padding-left: 50px;
+}
+.WidthBtn {
+    display: block;
+    width: 582px;
+    height: 153px;
+    line-height: 153px;
+    color: #000;
+    background-color: #1BFF07;
+    font-size: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: -0.03cm;
+}
+.WidthBtn:hover {
+    color: #1BFF07;
+    background-color: #000;
+    border: 1px solid #1BFF07;
+}
+.competence {
+    color: #FFFFFF;
+    font-size: 55px;
+    line-height: 72px;
+    width: 1048px;
+    height: 71px;
+    margin-bottom: 49px;
+}
+
+.program-before:before{
+    content: "";
+    display: block;
+    width: 45px;
+    height: 44px;
+    background: url(/resources/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 2px;
+    color: #1BFF07;
+}
+.program-before {
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03cm;
+    color: #1BFF07;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.description {
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 29px;
+    width: 778px;
+    height: 116px;
+    text-align: left;
+    letter-spacing: -0.03cm;
+    margin-bottom: 60px;
+}
+
+.frame {
+    position: relative;
+    width: 1150px;
+    height: 283px;
+    border-radius: 30px;
+    background-color: #191C19;
+    letter-spacing: -0.03cm;
+}
+.frame__title {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    color: #1BFF07;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03cm;
+}
+.frame_description {
+    padding-left: 40px;
+    padding-top: 127px;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 29px;
+    width: 778px;
+    height: 116px;
+    text-align: left;
+    letter-spacing: -0.03cm;
+}
+
+.contacts {
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background-color: #191C19;
+    border-radius: 30px;
+    text-align: center;
+}
+.connection {
+    position: absolute;
+    left: 125px;
+    bottom: 89px;
+    letter-spacing: -0.03cm;
+    color: #FFFFFF;
+    text-align: left;
+}
+.in_touch {
+    font-size: 35px;
+    line-height: 60px;
+    margin-bottom: 28px;
+}
+.contact {
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.contact:hover {
+    color: #1BFF07;
+}
+.contact_to {
+    margin-top: 19px;
+}
+
+.contactsImage {
+    width: 700px;
+    height: 717px;
+    float: right;
+    object-fit: cover;
+    border-style: solid;
+    border-radius: 0 30px 30px 0;
+}
+
+footer {
+    padding: 76px 125px 90px;
+    border-radius: 30px 30px 0 0;
+    background-color: #FFFFFF;
+}
+.footer-title {
+    color: #000;
+    opacity: 0.5;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+}
+.footer-link {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 66px;
+}
