@@ -42,7 +42,6 @@ section:first-child {
 }
 
 .container {
-    min-width: 1400px;
     margin: auto;
     background: #000;
 }
